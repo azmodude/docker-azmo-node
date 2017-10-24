@@ -1,4 +1,4 @@
-FROM azmo/base:debian
+FROM azmo/base:debian-slim
 
 RUN apt-get update && apt-get -y install --no-install-recommends gnupg && \
         curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | \
